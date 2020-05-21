@@ -10,11 +10,8 @@ require 'mailer/SMTP.php';
 header('Content-Type: application/json');
 
 $message = "
-  Имя: {$_POST['name']}<br/>
-  Email: {$_POST['email']}<br/>
-  Номер телефона: {$_POST['phone']}<br/>
-  Тема: {$_POST['subject']}<br/>
-  Сообщение: {$_POST['message']}
+  Номер телефона: {$_POST['tel']}<br/>
+  
 ";
 
 $mail = new PHPMailer(true);
