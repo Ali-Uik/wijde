@@ -10,7 +10,7 @@ require 'mailer/SMTP.php';
 header('Content-Type: application/json');
 
 $message = "
-  Номер телефона: {$_POST['tel']}<br/>
+ Мамараим шу почтани рассилкага кушиш керак: {$_POST['email']}<br/>
   
 ";
 
