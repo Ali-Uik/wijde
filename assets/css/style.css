@@ -1465,8 +1465,7 @@ section {
     font-size: 14px;
     margin-left: 40px;
     /*font-weight: 600;*/
-    /* color: #fff; */
-    color: #000;
+    color: #fff; 
     position: relative;
     padding-bottom: 12px;
 
@@ -1484,7 +1483,7 @@ section {
   margin-top: 30px;
   margin-left: 40px;
   background: #fff;
-  padding: 6px 10px;
+  padding: 6px 6px;
   position: relative;
   border-radius: 4;
 }
@@ -1492,7 +1491,7 @@ section {
 #footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px;
-  width: calc(100% - 110px);
+  width: calc(100% - 125px);
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"] {
