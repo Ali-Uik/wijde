@@ -139,10 +139,5 @@ jQuery(document).ready(function($) {
     return false;
   });
 
-  ajax({
-  success: function(e){
-     e.preventDefault();
-toastr.info('Вы подписались')
-   }
-});
+  
 });
